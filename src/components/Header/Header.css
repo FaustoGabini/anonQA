@@ -1,0 +1,48 @@
+header {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.headerContainer {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.avatarContainer {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userName {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+img {
+  width: 110px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.twitterContainer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .headerContainer {
+    width: 700px;
+    padding: 0;
+  }
+}

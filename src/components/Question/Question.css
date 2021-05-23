@@ -1,0 +1,39 @@
+.questionContainer {
+  width: 90%;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  border-left: 3px solid #1da1f2;
+  word-wrap: break-word;
+}
+
+.question {
+  padding: 20px 20px;
+}
+
+.questionName {
+  color: #1da1f2;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.questionName span {
+  color: #333;
+}
+
+.bodyQuestion {
+  font-weight: 500;
+  color: #333;
+  height: 100%;
+}
+
+.responseQuestion {
+  margin: 10px 0 0 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .questionContainer {
+    width: 700px;
+  }
+}
