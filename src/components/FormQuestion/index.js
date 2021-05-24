@@ -7,7 +7,9 @@ const FormQuestion = ({ callback }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    if (question.trim() === "") {
+      return;
+    }
     create(question).then((newQuestion) => {
       callback(newQuestion);
     });
