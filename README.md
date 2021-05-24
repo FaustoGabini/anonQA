@@ -2,7 +2,7 @@
 
 Anon QA es un proyecto hecho con React, ExpressJS y MongoDB
 
-**Demo**: https://anon-qa-jgtpuavjq-fausga.vercel.app/
+**Demo**: https://anon-qa.vercel.app/
 
 
 ## Getting Started with Create React App
